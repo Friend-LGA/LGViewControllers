@@ -1,0 +1,39 @@
+Pod::Spec.new do |s|
+
+    s.name = 'LGViewControllers'
+    s.version = '1.0.0'
+    s.platform = :ios, '6.0'
+    s.license = 'MIT'
+    s.homepage = 'https://github.com/Friend-LGA/LGViewControllers'
+    s.author = { 'Grigory Lutkov' => 'Friend.LGA@gmail.com' }
+    s.source = { :git => 'https://github.com/Friend-LGA/LGViewControllers.git', :tag => s.version }
+    s.summary = 'Classes extends abilities of UITableViewController, UICollectionViewController, and more'
+
+    s.requires_arc = true
+
+    s.source_files = 'LGViewControllers/*.{h,m}'
+
+    s.subspec 'LGViewControllerAnimator' do |ss|
+        ss.source_files = 'LGViewControllers/LGViewControllerAnimator/*.{h,m}'
+    end
+
+    s.subspec 'LGScrollViewController' do |ss|
+        ss.source_files = 'LGViewControllers/LGScrollViewController/*.{h,m}'
+    end
+
+    s.subspec 'LGTableViewController' do |ss|
+        ss.source_files = 'LGViewControllers/LGTableViewController/*.{h,m}'
+    end
+
+    s.subspec 'LGCollectionViewController' do |ss|
+        ss.source_files = 'LGViewControllers/LGCollectionViewController/*.{h,m}'
+    end
+
+    s.subspec 'LGWebViewController' do |ss|
+        ss.source_files = 'LGViewControllers/LGWebViewController/*.{h,m}'
+    end
+
+    s.dependency 'LGRefreshView', '~> 1.0.0'
+    s.dependency 'LGPlaceholderView', '~> 1.0.0'
+
+end
