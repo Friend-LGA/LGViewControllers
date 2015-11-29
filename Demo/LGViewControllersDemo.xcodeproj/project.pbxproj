@@ -12,6 +12,7 @@
 		4A3ABCB11AC4302C003889C0 /* DemoScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3ABCB01AC4302C003889C0 /* DemoScrollViewController.m */; };
 		4A3ABCB41AC4303F003889C0 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3ABCB31AC4303F003889C0 /* DemoTableViewController.m */; };
 		4A3ABCB71AC43053003889C0 /* DemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3ABCB61AC43053003889C0 /* DemoCollectionViewController.m */; };
+		4A836B6F1BF4F59F008374ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A836B6E1BF4F59F008374ED /* LaunchScreen.storyboard */; };
 		4AD365021AAF697400EE6F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD365011AAF697400EE6F1A /* main.m */; };
 		4AD365051AAF697400EE6F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD365041AAF697400EE6F1A /* AppDelegate.m */; };
 		4AD3650D1AAF697400EE6F1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD3650C1AAF697400EE6F1A /* Images.xcassets */; };
@@ -30,6 +31,7 @@
 		4A3ABCB31AC4303F003889C0 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 		4A3ABCB51AC43053003889C0 /* DemoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewController.h; sourceTree = "<group>"; };
 		4A3ABCB61AC43053003889C0 /* DemoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewController.m; sourceTree = "<group>"; };
+		4A836B6E1BF4F59F008374ED /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AD364FC1AAF697400EE6F1A /* LGViewControllersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGViewControllersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD365001AAF697400EE6F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AD365011AAF697400EE6F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				4A3ABCAE1AC42EE7003889C0 /* Demo View Controllers */,
 				4AD3650C1AAF697400EE6F1A /* Images.xcassets */,
 				4AD364FF1AAF697400EE6F1A /* Supporting Files */,
+				4A836B6E1BF4F59F008374ED /* LaunchScreen.storyboard */,
 			);
 			path = LGViewControllersDemo;
 			sourceTree = "<group>";
@@ -154,7 +157,7 @@
 		4AD364F41AAF697400EE6F1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Grigory Lutkov";
 				TargetAttributes = {
 					4AD364FB1AAF697400EE6F1A = {
@@ -185,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A836B6F1BF4F59F008374ED /* LaunchScreen.storyboard in Resources */,
 				4AD3650D1AAF697400EE6F1A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +281,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -345,6 +350,7 @@
 				INFOPLIST_FILE = LGViewControllersDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +365,7 @@
 				INFOPLIST_FILE = LGViewControllersDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

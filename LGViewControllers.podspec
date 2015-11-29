@@ -12,26 +12,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.source_files = 'LGViewControllers/*.{h,m}'
-
-    s.subspec 'LGViewControllerAnimator' do |ss|
-        ss.source_files = 'LGViewControllers/LGViewControllerAnimator/*.{h,m}'
-    end
-
-    s.subspec 'LGScrollViewController' do |ss|
-        ss.source_files = 'LGViewControllers/LGScrollViewController/*.{h,m}'
-    end
-
-    s.subspec 'LGTableViewController' do |ss|
-        ss.source_files = 'LGViewControllers/LGTableViewController/*.{h,m}'
-    end
-
-    s.subspec 'LGCollectionViewController' do |ss|
-        ss.source_files = 'LGViewControllers/LGCollectionViewController/*.{h,m}'
-    end
-
-    s.subspec 'LGWebViewController' do |ss|
-        ss.source_files = 'LGViewControllers/LGWebViewController/*.{h,m}'
-    end
+    s.source_files = 'LGViewControllers/**/*.{h,m}'
 
     s.dependency 'LGRefreshView', '~> 1.0.0'
     s.dependency 'LGPlaceholderView', '~> 1.0.0'

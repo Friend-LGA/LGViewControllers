@@ -1,29 +1,9 @@
 PODS:
   - DACircularProgress (2.3.1)
-  - LGPlaceholderView (1.0.1)
-  - LGRefreshView (1.0.1):
-    - DACircularProgress (~> 2.3.1)
+  - LGPlaceholderView (1.0.2)
+  - LGRefreshView (1.0.3):
+    - DACircularProgress (~> 2.3.0)
   - LGViewControllers (1.0.0):
-    - LGPlaceholderView (~> 1.0.0)
-    - LGRefreshView (~> 1.0.0)
-    - LGViewControllers/LGCollectionViewController (= 1.0.0)
-    - LGViewControllers/LGScrollViewController (= 1.0.0)
-    - LGViewControllers/LGTableViewController (= 1.0.0)
-    - LGViewControllers/LGViewControllerAnimator (= 1.0.0)
-    - LGViewControllers/LGWebViewController (= 1.0.0)
-  - LGViewControllers/LGCollectionViewController (1.0.0):
-    - LGPlaceholderView (~> 1.0.0)
-    - LGRefreshView (~> 1.0.0)
-  - LGViewControllers/LGScrollViewController (1.0.0):
-    - LGPlaceholderView (~> 1.0.0)
-    - LGRefreshView (~> 1.0.0)
-  - LGViewControllers/LGTableViewController (1.0.0):
-    - LGPlaceholderView (~> 1.0.0)
-    - LGRefreshView (~> 1.0.0)
-  - LGViewControllers/LGViewControllerAnimator (1.0.0):
-    - LGPlaceholderView (~> 1.0.0)
-    - LGRefreshView (~> 1.0.0)
-  - LGViewControllers/LGWebViewController (1.0.0):
     - LGPlaceholderView (~> 1.0.0)
     - LGRefreshView (~> 1.0.0)
 
@@ -36,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
-  LGPlaceholderView: 3e999b0b0d3dae2382fef5bb3d233ad76a2fd7a6
-  LGRefreshView: 139a2383ec59eae0089de81965c410fa12c679aa
-  LGViewControllers: 044c17f8f14de0d31bb3f2c5944c56dee3c17732
+  LGPlaceholderView: 37ae1eaca38ace1418ae74e4d9db8fa5738367a2
+  LGRefreshView: 2f3059fcb41abe8a3e032b8f5ea8b9b345869a64
+  LGViewControllers: 7c46dc5105d1872105a787db00900a439793448d
 
 COCOAPODS: 0.39.0
